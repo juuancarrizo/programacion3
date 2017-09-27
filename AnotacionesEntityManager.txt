@@ -2,7 +2,7 @@ entity manager factory: es una interfaz que se inicoa con la aplicacion y se cie
 este es especifico de un BD
 la conexion a la BD se realiza atravez de entitymanager.
 en una aplicacion podemos tener multiples entity manager.
-entity manager representa la conoxion especifica a la base de datos, cada entity manager realiza una transaccion(modifican el concepto de la base de datos insert, update, delete) y una query.
+entity manager representa la conoxion especifica a la base de datos, cada entity manager realiza una transaccion(modifican el contexto de la base de datos insert, update, delete) y una query.
 se crea un objeto y se pasa al estado managed del mapeador, los datos se guardan fisicamente en la base de datos cuando hacemos un commit. el contexo de persistencia es la coleccion del obejeto managed.
 estrategias de fetch:
 lazy(flojo) surge cuando se trae ojbetos complejos se carga en memoria toda la estructura, lo que puede ocurrir que se llene la memoria. esta estrategia trae del objeto la coleccion de sus proyectos solo con su id, evitando que traiga toda su historia(colecciones)
