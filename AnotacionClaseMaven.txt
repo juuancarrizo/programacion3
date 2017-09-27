@@ -1,0 +1,6 @@
+mateo directo se crean las tablas y se le agregan las anotaciones
+mapeo inverso el entorno crea las clases correspondien
+tes desde las tablas.
+funcion: dentro de eclipse crear conexion con la base de datos, pasos ( windows,  show view, data source explorer) esto permite crear una conexion a la base de datos. seleccionar database conection y elegir la base de datos postgres y le agregamos un nombre representativo, despues elegimos el drivers, el resto de datos se los da de acuerdo a nuestra base de datos (usar test conection para verificar que este todo bien)
+MAVEN ES UNA herrramienta cyua funcion es la gestion del proyecto en general, pero su fuerte es la autobusqueda de las librerias agregandole las sintaxis necesaria. 
+creamos un proyecto maven.
