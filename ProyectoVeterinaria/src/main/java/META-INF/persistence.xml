@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="veterinaria">
+		<mapping-file>META-INF/orm.xml</mapping-file>
+		<class>clases.Cliente</class>
+		<class>clases.Domicilio</class>
+		<class>clases.Enfermedad</class>
+		<class>clases.EnfermedadPaciente</class>
+		<class>clases.Especie</class>
+		<class>clases.Localidad</class>
+		<class>clases.Medicacion</class>
+		<class>clases.Medicamento</class>
+		<class>clases.MotivoVisita</class>
+		<class>clases.Paciente</class>
+		<class>clases.Raza</class>
+		<class>clases.VacunaColocada</class>
+		<class>clases.Visita</class>
+		<properties>
+			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+		</properties>
+	</persistence-unit>
+</persistence>
